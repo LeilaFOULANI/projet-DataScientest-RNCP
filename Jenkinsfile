@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    git credentialsId: 'github-ssh-key', url: 'git@github.com:LeilaFOULANI/projetServicesWeb.git', branch: 'main'
+                    git credentialsId: 'github-ssh-key', url: 'git@github.com:LeilaFOULANI/projet-DataScientest-RNCP.git', branch: 'main'
                 }
             }
         }
